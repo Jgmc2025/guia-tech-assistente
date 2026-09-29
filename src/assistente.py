@@ -38,6 +38,14 @@ MSG_SEM_INFO = (
     "primeiros passos, Git/GitHub e como montar um portfólio. Quer começar por alguma dessas?"
 )
 
+SAUDACOES = {"oi", "ola", "bom dia", "boa tarde", "boa noite", "e ai", "eai", "opa", "hello", "hi"}
+
+MSG_SAUDACAO = (
+    "Olá! 👋 Eu sou o Guia Tech e ajudo quem está começando em tecnologia.\n\n"
+    "Me conta: o que você gosta de fazer? Ver resultado visual (Front-end), "
+    "resolver problemas de lógica (Back-end), trabalhar com números (Dados) "
+    "ou encontrar falhas (QA)? Também posso explicar por onde começar."
+)
 
 def normalizar(texto: str) -> str:
     texto = unicodedata.normalize("NFKD", texto.lower())
@@ -100,6 +108,8 @@ def resposta_llm(pergunta: str, encontrados, modelo: str, url: str, historico=No
 
 def responder(pergunta: str, base: list[dict], usar_llm=False, modelo="llama3.2",
               url="http://localhost:11434", historico=None) -> dict:
+    if normalizar(pergunta).strip(" !?.,") in SAUDACOES:
+        return {"texto": MSG_SAUDACAO, "fontes": [], "modo": "saudacao"}
     encontrados = buscar(pergunta, base)
     if not encontrados:  # anti-alucinação: sem contexto, o LLM nem é chamado
         return {"texto": MSG_SEM_INFO, "fontes": [], "modo": "sem_info"}
