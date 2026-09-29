@@ -108,7 +108,12 @@ def resposta_llm(pergunta: str, encontrados, modelo: str, url: str, historico=No
 
 def responder(pergunta: str, base: list[dict], usar_llm=False, modelo="llama3.2",
               url="http://localhost:11434", historico=None) -> dict:
-    if normalizar(pergunta).strip(" !?.,") in SAUDACOES:
+    palavras = re.findall(r"[a-z]+", normalizar(pergunta))
+    eh_saudacao = len(palavras) <= 3 and (
+        (palavras and palavras[0] in {"oi", "ola", "opa", "hello", "hi", "eai"})
+        or " ".join(palavras[:2]) in {"bom dia", "boa tarde", "boa noite", "e ai"}
+    )
+    if eh_saudacao:
         return {"texto": MSG_SAUDACAO, "fontes": [], "modo": "saudacao"}
     encontrados = buscar(pergunta, base)
     if not encontrados:  # anti-alucinação: sem contexto, o LLM nem é chamado
