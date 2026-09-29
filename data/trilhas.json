@@ -1,0 +1,93 @@
+[
+  {
+    "id": "frontend",
+    "nome": "Front-end (Web)",
+    "para_quem": "Quem gosta de ver resultado visual rápido e de construir telas e sites.",
+    "descricao": "Foco em criar interfaces web: estrutura (HTML), estilo (CSS) e interatividade (JavaScript).",
+    "habilidades": ["HTML", "CSS", "JavaScript", "Git e GitHub", "Responsividade", "Noções de React (depois do básico)"],
+    "tempo_estimado_meses": "4 a 8",
+    "primeiros_passos": [
+      "Aprender HTML semântico e montar uma página simples",
+      "Estilizar com CSS (flexbox e grid)",
+      "Aprender JavaScript básico e manipular o DOM",
+      "Publicar 2 ou 3 projetos pequenos no GitHub"
+    ],
+    "recursos_gratuitos": [
+      {"nome": "MDN Web Docs (em português)", "tipo": "documentação", "url": "https://developer.mozilla.org/pt-BR/"}
+    ],
+    "keywords": ["frontend", "front-end", "html", "css", "javascript", "site", "web", "pagina", "tela", "interface", "react", "visual"]
+  },
+  {
+    "id": "backend_python",
+    "nome": "Back-end com Python",
+    "para_quem": "Quem gosta de lógica, regras de negócio e de construir a parte 'invisível' dos sistemas.",
+    "descricao": "Foco em APIs, regras de negócio e banco de dados usando Python.",
+    "habilidades": ["Python", "Lógica de programação", "SQL", "APIs REST", "Git e GitHub", "Noções de Docker (depois do básico)"],
+    "tempo_estimado_meses": "6 a 10",
+    "primeiros_passos": [
+      "Dominar sintaxe básica de Python (variáveis, condicionais, laços, funções)",
+      "Praticar com pequenos scripts e exercícios",
+      "Aprender SQL básico (SELECT, JOIN, INSERT)",
+      "Criar uma API simples e publicar no GitHub"
+    ],
+    "recursos_gratuitos": [
+      {"nome": "Tutorial oficial de Python (pt-br)", "tipo": "documentação", "url": "https://docs.python.org/pt-br/3/tutorial/"}
+    ],
+    "keywords": ["backend", "back-end", "python", "api", "servidor", "banco", "sql", "logica", "programacao", "sistema"]
+  },
+  {
+    "id": "dados",
+    "nome": "Análise de Dados",
+    "para_quem": "Quem gosta de números, padrões e de responder perguntas com dados.",
+    "descricao": "Foco em coletar, limpar, analisar e comunicar dados para apoiar decisões.",
+    "habilidades": ["Excel", "SQL", "Python (pandas)", "Estatística básica", "Visualização de dados", "Comunicação dos resultados"],
+    "tempo_estimado_meses": "5 a 9",
+    "primeiros_passos": [
+      "Praticar planilhas e estatística descritiva (média, mediana, desvio)",
+      "Aprender SQL para consultar dados",
+      "Aprender Python com pandas para limpar e analisar dados",
+      "Montar um projeto de análise com um conjunto de dados aberto e explicar suas conclusões"
+    ],
+    "recursos_gratuitos": [
+      {"nome": "Documentação do pandas", "tipo": "documentação", "url": "https://pandas.pydata.org/docs/"}
+    ],
+    "keywords": ["dados", "analise", "analista", "excel", "planilha", "pandas", "estatistica", "grafico", "dashboard", "bi", "visualizacao"]
+  },
+  {
+    "id": "qa",
+    "nome": "QA (Qualidade e Testes de Software)",
+    "para_quem": "Quem é detalhista, curioso e gosta de encontrar falhas antes que o usuário encontre.",
+    "descricao": "Foco em garantir a qualidade do software com testes manuais e automatizados.",
+    "habilidades": ["Lógica de programação básica", "Testes manuais e casos de teste", "Noções de SQL e APIs", "Automação de testes", "Git e GitHub"],
+    "tempo_estimado_meses": "3 a 7",
+    "primeiros_passos": [
+      "Entender o ciclo de vida do software e tipos de teste",
+      "Aprender a escrever casos de teste claros",
+      "Praticar testes em APIs e sites reais de treino",
+      "Dar os primeiros passos em automação com uma ferramenta open source"
+    ],
+    "recursos_gratuitos": [
+      {"nome": "Documentação do Cypress", "tipo": "documentação", "url": "https://docs.cypress.io/"}
+    ],
+    "keywords": ["qa", "teste", "testes", "qualidade", "bug", "automacao", "tester", "cypress", "selenium"]
+  },
+  {
+    "id": "git_github",
+    "nome": "Fundamentos: Git e GitHub",
+    "para_quem": "Qualquer pessoa iniciante em tecnologia, independentemente da trilha escolhida.",
+    "descricao": "Controle de versão e portfólio: base para trabalhar em equipe e mostrar seus projetos.",
+    "habilidades": ["Git (commit, branch, merge)", "GitHub (repositório, README, fork)", "Markdown"],
+    "tempo_estimado_meses": "1",
+    "primeiros_passos": [
+      "Instalar o Git e configurar nome e e-mail",
+      "Criar um repositório e fazer os primeiros commits",
+      "Escrever um bom README em Markdown",
+      "Aprender o básico de branches e pull requests"
+    ],
+    "recursos_gratuitos": [
+      {"nome": "Livro Pro Git (pt-br)", "tipo": "livro online", "url": "https://git-scm.com/book/pt-br/v2"},
+      {"nome": "Documentação do GitHub", "tipo": "documentação", "url": "https://docs.github.com/pt"}
+    ],
+    "keywords": ["git", "github", "commit", "branch", "repositorio", "versionamento", "fork", "pull request"]
+  }
+]

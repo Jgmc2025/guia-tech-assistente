@@ -1,0 +1,38 @@
+[
+  {
+    "id": "por_onde_comecar",
+    "pergunta": "Por onde começar em tecnologia?",
+    "resposta": "Um caminho comum é: (1) descobrir qual área combina mais com você experimentando o básico de 2 trilhas, (2) aprender Git e GitHub cedo, (3) escolher uma trilha e estudar com projetos pequenos, (4) publicar tudo no GitHub. Não precisa decidir a carreira inteira agora: escolha uma trilha para testar por 4 semanas.",
+    "keywords": ["comecar", "inicio", "iniciante", "primeiro", "zero", "transicao", "comeco"]
+  },
+  {
+    "id": "faculdade",
+    "pergunta": "Preciso de faculdade para trabalhar com tecnologia?",
+    "resposta": "Depende da vaga e da empresa. Muitas vagas de nível júnior valorizam projetos práticos e portfólio, mas algumas exigem ou preferem graduação. Vale olhar as vagas reais da área que você quer e comparar os requisitos.",
+    "keywords": ["faculdade", "graduacao", "diploma", "formacao"]
+  },
+  {
+    "id": "ingles",
+    "pergunta": "Preciso saber inglês?",
+    "resposta": "Não é obrigatório para começar, mas ajuda muito: a maior parte da documentação e das ferramentas está em inglês. Comece lendo documentação técnica com apoio de tradutor e vá evoluindo aos poucos.",
+    "keywords": ["ingles", "idioma", "lingua", "english"]
+  },
+  {
+    "id": "tempo_estudo",
+    "pergunta": "Quanto tempo por dia devo estudar?",
+    "resposta": "Não existe número mágico. O mais importante é a constância: 1 a 2 horas por dia, com prática, costuma funcionar melhor do que maratonas esporádicas. Ajuste à sua rotina e priorize construir pequenos projetos.",
+    "keywords": ["horas", "rotina", "constancia", "estudar", "estudo"]
+  },
+  {
+    "id": "portfolio",
+    "pergunta": "Como montar um portfólio?",
+    "resposta": "Publique no GitHub 3 a 5 projetos pequenos e bem explicados. Cada repositório deve ter um README com: o problema que resolve, como rodar, tecnologias usadas e o que você aprendeu. Projetos simples e bem documentados valem mais do que projetos grandes sem explicação.",
+    "keywords": ["portfolio", "projeto", "projetos", "readme", "mostrar", "curriculo"]
+  },
+  {
+    "id": "escolher_trilha",
+    "pergunta": "Como escolher entre as trilhas?",
+    "resposta": "Pense no que você gosta de fazer: ver resultado visual (Front-end), lógica e regras de negócio (Back-end), números e padrões (Dados) ou encontrar falhas (QA). Teste 2 trilhas por algumas semanas com um mini projeto em cada e veja qual dá mais energia.",
+    "keywords": ["escolher", "decidir", "diferenca", "comparar", "indeciso", "duvida", "area", "trilha", "trilhas"]
+  }
+]
