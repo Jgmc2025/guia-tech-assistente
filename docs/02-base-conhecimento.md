@@ -11,7 +11,7 @@
 1. Cada trilha e cada FAQ vira um **chunk** de texto.
 2. A pergunta é normalizada (minúsculas, sem acentos, sem stopwords).
 3. Pontuação: **3 pontos** por palavra-chave em comum + **1 ponto** por palavra em comum no texto.
-4. Só entram como contexto os chunks com pontuação **≥ 3** (limiar mínimo), no máximo 2.
+4. Só entram como contexto os chunks com pontuação **≥ 3** (limiar mínimo), no máximo 2. O 2º trecho só é mantido se tiver pelo menos **70% da pontuação do 1º**, para evitar ruído (ex.: FAQ de inglês junto de "por onde começar").
 5. Sem chunk acima do limiar → o assistente diz que não tem a informação.
 
 ## Cuidados com os dados
