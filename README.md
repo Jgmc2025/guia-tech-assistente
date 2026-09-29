@@ -15,7 +15,7 @@ Quem está começando em tecnologia se perde entre muitas áreas e opiniões. O 
 | 3 | Prompts | [`docs/03-prompts.md`](docs/03-prompts.md) |
 | 4 | Aplicação funcional | [`src/app.py`](src/app.py) e [`src/assistente.py`](src/assistente.py) |
 | 5 | Avaliação e métricas | [`docs/04-metricas.md`](docs/04-metricas.md) e [`src/avaliar.py`](src/avaliar.py) |
-| 6 | Pitch | [`docs/05-pitch.md`](docs/05-pitch.md) |
+| 6 | Pitch | [`docs/05-pitch.md`](docs/05-pitch.md) e [Pitch Gravado](https://drive.google.com/file/d/1cVwqFg-wl9UgHRwIN1PIHqqKM3EqKuka/view?usp=drivesdk) |
 
 ## Como funciona
 1. A pergunta é comparada com a base (`data/trilhas.json` e `data/faq.json`).
@@ -47,6 +47,8 @@ Para rodar a avaliação: `python src/avaliar.py`
 ## Resultados da avaliação
 Foram realizadas 12 perguntas de teste manual e 16 perguntas de teste do sistema. Detalhes e limitações em [`docs/04-metricas.md`](docs/04-metricas.md).
 
+[Pitch Gravado](https://drive.google.com/file/d/1cVwqFg-wl9UgHRwIN1PIHqqKM3EqKuka/view?usp=drivesdk)
+
 ## Estrutura
 ```
 guia-tech-assistente/
@@ -58,7 +60,7 @@ guia-tech-assistente/
 ```
 
 ## Próximos passos
-Ampliar a base, usar embeddings na busca, registrar feedback das pessoas usuárias e gravar o pitch.
+Ampliar a base, usar embeddings na busca, registrar feedback das pessoas usuárias.
 
 ## Tecnologias
 Python · Streamlit · Ollama (opcional) · JSON · Mermaid
