@@ -1,5 +1,7 @@
 # 5. Pitch
 
+[Pitch Gravado](https://drive.google.com/file/d/1cVwqFg-wl9UgHRwIN1PIHqqKM3EqKuka/view?usp=drivesdk)
+
 **Problema**
 "Quem quer entrar em tecnologia enfrenta um excesso de opções: front-end, back-end, dados... Cada vídeo diz uma coisa diferente e muita gente desiste antes de começar, ou estuda sem direção."
 
@@ -14,3 +16,5 @@
 
 **Próximos passos**
 "Vou ampliar a base, trocar a busca por embeddings e testar com pessoas reais. Obrigado!"
+
+[Pitch Gravado](https://drive.google.com/file/d/1cVwqFg-wl9UgHRwIN1PIHqqKM3EqKuka/view?usp=drivesdk)
