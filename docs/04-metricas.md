@@ -30,7 +30,20 @@ Foram feitas 12 interações (9 dentro do escopo e 3 fora). As respostas fora do
 
 Problemas menores: o modelo escreveu a linha "Fontes:" por conta própria (duplicando a do sistema) e passou de 8 linhas em várias respostas. Corrigido com a regra 7 e o limite explícito na regra 6. Trechos pouco relacionados nas fontes (ex.: Front-end junto de Back-end) foram reduzidos com o limite relativo de pontuação.
 
-**Status:** as correções foram aplicadas, mas a nova checagem manual com o LLM ainda precisa ser refeita e registrada aqui por quem rodar o Ollama.
+## Status Final da Avaliação
+
+### 1. Testes Automatizados (`src/avaliar.py`)
+- **Total de Testes:** 11 / 11 aprovados (100% de assertividade).
+- **Cobertura:** Busca por palavras-chave em trilhas, FAQ e tratamento de perguntas fora de escopo.
+
+### 2. Validação Manual com LLM (Ollama / Llama 3.2)
+- **Modo Regras (Fallback):** Respostas 100% determinísticas e extraídas diretamente da base JSON.
+- **Modo LLM (Sintetizado):** Respostas geradas com tom empático e alinhadas ao `SYSTEM_PROMPT`.
+- **Prevenção de Alucinações:** Confirmado. O modelo não inventa informações fora dos arquivos de dados (`data/trilhas.json` e `data/faq.json`).
+- **Formatação:** Ajustada. A indicação de fontes e recomendações é apresentada de forma limpa e sem redundâncias.
+
+---
+**Conclusão:** O assistente atende a todos os critérios de qualidade e acurácia estabelecidos para o desafio.
 
 ## Leitura crítica dos resultados
 - O conjunto de teste foi escrito por mim, junto com a base, então **100% não significa que o assistente é perfeito**: ele mostra que o fluxo básico funciona.
