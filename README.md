@@ -45,7 +45,7 @@ Para rodar a avaliação: `python src/avaliar.py`
 - "Qual a receita de bolo?" → o assistente recusa, pois está fora da base.
 
 ## Resultados da avaliação
-Em 16 perguntas de teste: **12/12** acertos na recuperação e **4/4** recusas corretas fora do escopo. Detalhes e limitações em [`docs/04-metricas.md`](docs/04-metricas.md).
+Foram realizadas 1w perguntas de teste. Detalhes e limitações em [`docs/04-metricas.md`](docs/04-metricas.md).
 
 ## Estrutura
 ```
